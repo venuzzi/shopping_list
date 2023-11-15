@@ -22,7 +22,7 @@ def show_main(request):
     context = {
         'name': request.user.username, # Nama kamu
         'class': 'PBP A', # Kelas PBP kamu
-        'products': products,
+        'products': products, # Products
         'last_login': request.COOKIES['last_login'],
     }
 
